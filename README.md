@@ -1,18 +1,31 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# fundlink
+****
+Sistema bancário
 
-## Folder Structure
+Este sistema bancário utiliza a linguagem de programação assim como seus métodos. 
 
-The workspace contains two folders by default, where:
+Métodos: Sacar, realizar o saque de acordo com o saldo, se o saldo for maior ou igual ao valor do saldo, ele vai receber menos o valor do saque, caso contrário o valor do saque não poderá ser realizado, informa para o usuário que o saldo é insuficiente, o método para realização do depósito que irá receber o saldo  mais o valor do depósito.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+*****
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Autores
+
+-  [@BeneTesla](https://github.com/benetesla)
+
+## 💻 Stack utilizada
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
+
+
+
+## Instalação
+
+
+```bash
+  git clone https://github.com/benetesla/fundlink.git
+```
+    
