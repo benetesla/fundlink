@@ -21,6 +21,7 @@ public class App {
         System.out.println("Digite o valor do depósito: ");
         conta.setValorDeposito(sc.nextDouble());
         conta.Depositar();
+
         System.out.println("Nome: " + conta.getNome());
         System.out.println("CPF: " + conta.getCpf());
         System.out.println("RG: " + conta.getRg());
@@ -32,6 +33,8 @@ public class App {
         System.out.println("Tipo da conta: " + conta.getTipoConta());
         System.out.println("Saldo: " + conta.getSaldo());
         System.out.println("Limite: " + conta.getLimite());
+
+
         sc.close();
 
     }

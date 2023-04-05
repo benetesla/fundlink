@@ -95,29 +95,7 @@ public class Conta extends Clientes {
         System.out.println("Depósito realizado com sucesso!");
         System.out.println("Seu saldo atual é de: " + Saldo);
     }
+    
 
-    public void ConsultarSaldo() {
-        System.out.println("Seu saldo atual é de: " + Saldo);
-    }
-
-    public void ConsultarSaldoTotal() {
-        SaldoTotal = Saldo + Limite;
-        System.out.println("Seu saldo total é de: " + SaldoTotal);
-    }
-
-    public void Transferir() {
-        if (ValorSaque <= Saldo) {
-            Saldo = Saldo - ValorSaque;
-            System.out.println("Transferência realizada com sucesso!");
-            System.out.println("Seu saldo atual é de: " + Saldo);
-        } else {
-            System.out.println("Saldo insuficiente!");
-        }
-    }
-
-    public void SaldoTotal() {
-        SaldoTotal = Saldo + Limite;
-        System.out.println("Seu saldo total é de: " + SaldoTotal);
-    }
 
 }
